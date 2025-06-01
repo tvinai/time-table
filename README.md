@@ -1,29 +1,12 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### Run docker compose ###
+- cd into ./docker directory and run command below
+- docker-compose -p nginx-time-table up -d
 
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### Useful Docker Commands ###
+docker ps                      // List running containers
+docker exec -it my-nginx bash // Shell into container
+docker logs my-nginx          // View logs
+docker stop my-nginx          // Stop container
+docker rm my-nginx            // Remove container
