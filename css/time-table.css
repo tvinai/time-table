@@ -1,0 +1,12 @@
+.bordered-table th {
+    border: thin solid #999;
+    text-align: center;
+}
+
+.bordered-table td {
+    border: thin solid #999;
+}
+
+.booked {
+    background-color: lightblue;
+}
